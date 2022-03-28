@@ -36,17 +36,13 @@
                 <th class="text-nowrap text-center">Data de Nascimento</th>
                 <th clas="text-center">Editar</th>
                 <th clas="text-center">Excluir</th>
-
-
             </tr>
         </thead>
         <tbody>
             <?php
 
                 $quantidade = 10 ;
-
                 $pagina = (isset($_GET['pagina']))?(int)$_GET['pagina']:1; #quarda o número da pagina atual, se não houver nada vai para a página 1
-
                 $inicio = ($quantidade * $pagina) - $quantidade;
 
 

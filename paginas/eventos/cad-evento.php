@@ -9,7 +9,7 @@
                     <div class="mb-3">
                         <label class= "form-label" for="statusEvento">Status</label>
                         <div class="input-group">
-                    <span class="input-group-text"><i class="bi bi-gender-ambiguous"></i></span>
+                    <span class="input-group-text"><i class="bi bi-list-task"></i></span>
                     <select class="form-control" name="statusevento" id="statusevento">
                         <option selected value="">Selecione o Status</option>
                         <option value="0">Aberto</option>
