@@ -1,0 +1,27 @@
+/* Formas de escrever no documento 
+document.getElementById("titulo").innerHTML = "Tudo bem?";
+document.write("Texto teste");
+
+
+// formas de escrever na janela e não no navegador.
+alert("Mensagem de exemplo");
+
+
+//Escrever no console
+
+console.log("Mensagem no console")
+*/
+
+
+//getElementById busca o elemento pelo id e o inner.HTML altera o valor deste documento
+document.getElementById("exemplo").innerHTML = "teste ID <button>Teste </button> ";
+
+//busca os elementos pelo nome da classe, o retorno é um array de itens e para modificar é necessario inticar qual o item a ser modificado.
+document.getElementsByClassName("lista")[0].innerHTML ="Classe";
+
+
+//busca o elemento pela tag como h1,button e etc, tambem retorna um array de itens.
+document.getElementsByTagName('h1')[1].innerHTML = "Tagname";
+
+
+document.getElementsByName('telefone')[0].innerHTML = 'placeholder="digite o telefone"'

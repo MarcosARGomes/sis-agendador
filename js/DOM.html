@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:5500/Modulo2-DOM/index.html -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./DOM_files/style.css">
+<script async="" src="./DOM_files/analytics.js.download"></script><script type="text/javascript" src="chrome-extension://haaojocoaiflahnbiogmkkbbihfnffpd/queixo.js?host=ofertas.olhardigital.com.br"></script><script type="text/javascript" src="chrome-extension://haaojocoaiflahnbiogmkkbbihfnffpd/external/sizzle.min.js"></script><meta name="olhardigital_frete" content="UA-23288050-8"><meta name="olhardigital_mango" content="UA-23288050-14"></head>
+<body>
+    <h1 id="exemplo">teste ID <button>Teste </button> </h1>
+
+    <div class="lista">Classe</div>
+
+    <h1>Tagname</h1>
+
+    <input type="text" name="telefone" placeholder="digite seu telefone">placeholder="digite o telefone"</input>
+
+    
+    <script src="./DOM_files/script.js.download"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body><evlist></evlist></html>
